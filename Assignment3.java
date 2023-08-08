@@ -45,9 +45,7 @@ public class Assignment3 {
                 resetColor
               );
               return;
-            } else if (
-              subject2.startsWith("SE") && !(subject1.equals(subject2))
-            ) {
+            } else if (subject2.startsWith("SE") && !(subject1.equals(subject2))) {
               System.out.print("Enter your marks2: ");
               double marks2 = scanner.nextDouble();
               scanner.nextLine();
